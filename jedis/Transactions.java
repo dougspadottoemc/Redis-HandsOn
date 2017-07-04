@@ -1,5 +1,3 @@
-package com.pivotal.edu.redis;
-
 import java.util.HashMap;
 import java.util.Map;
 
