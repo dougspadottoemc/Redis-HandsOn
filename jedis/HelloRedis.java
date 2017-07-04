@@ -1,4 +1,3 @@
-package com.pivotal.edu.redis;
 
 import redis.clients.jedis.*;
 
