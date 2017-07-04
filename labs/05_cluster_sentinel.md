@@ -6,9 +6,8 @@ Utilizar recursos do Redis Cluster e Sentinel
 
 1. Crie um cluster mínimo utilizando o utilitário create-cluster
 
-a. se o servidor não possuir ainda, instale a gem do redis
-
-b. em seu config.sh, especifique 6 nós, 3 masters, 3 slaves 
+...a. se o servidor não possuir ainda, instale a gem do redis
+...b. em seu config.sh, especifique 6 nós, 3 masters, 3 slaves 
 
 2. Familiarize-se com a saída do comando CLUSTER INFO
 3. Liste os nós do cluster com o comando CLUSTER NODES
