@@ -52,7 +52,7 @@ public class Transactions
     public static void main( String[] args )
     {
     	// Open a connection to Redis
-    	jedis = new Jedis("192.168.73.129");
+    	jedis = new Jedis("127.0.0.1");
     	
     	// Create the orderID and orderItemIds variables
     	String orderId = "6884";
