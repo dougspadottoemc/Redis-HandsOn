@@ -19,6 +19,12 @@ appendonly yes
 ```
 - altere o parâmetro "port" conforme o nome de cada subdiretório
 5. Em janelas separadas e sem enviar o processo para background, inicie as 6 instâncias de Redis com cada uma utilizando o seu próprio arquivo redis.conf
+
+- Antes de utilizar o utilitário redis-trib.rb:
+1. A instalação do Redis na nuvem não possui este utilitário. Copie o mesmo do diretório src/ da instalação manual feita na segunda-feira. Ou faça download dele no diretório utils/ deste repositório e envie para o servidor.
+2. Instale o Ruby. Como root, execute `yum install ruby`
+3. Installe a gem do Redis. O servidor na cloud não tem acesso à Web, então faça o download o arquivo gem no diretório utils deste repositório e envie para o servidor. Uma vez no diretório onde o arquivo gem foi copiado no servidor, execute `gem install redis`
+
 6. Utilize o utilitário redis-trib.rb para criar um novo cluster. Verifique as opções do comando.
 - se encontrar algum erro de "gem" não encontrado, instale o gem redis: `gem install redis`
 
