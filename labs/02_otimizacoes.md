@@ -19,7 +19,7 @@ A fim de salvaguardar o broker contra o esgotamento da memória, uma técnica é
 3.  Agora, defina a chave para expirar após 30 segundos. Antes de passarem 30 segundos, use o comando TTL novamente para obter o tempo restante antes da chave expirar.
 4.  Continue a pesquisar o tempo restante até que a chave expire, então observe como nesse ponto Redis retorna -2 uma vez que a chave expirou.
 
-# Uso de hashes
+# Uso de hashes (extra)
 
 1.  Verifique os valores sendo utilizados para hash-max-zipmap-entries e hash-max-zipmap-value na instância do Redis em execução
 2.  Altere para um valor baixo, reinicie e teste adicionando até o limite do tamanho definido para verificar qual encoding o Redis passa a usar
