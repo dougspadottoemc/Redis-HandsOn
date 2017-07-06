@@ -15,6 +15,6 @@ Recuperar backups de arquivos AOF e RDB
 1. Na instância iniciada ao final da seção anterior, ative o uso de arquivos AOF
 2. Envie comandos de escrita para esta instância (SET, HSET, HMSET, etc.)
 3. Verifique que um novo arquivo, appendonly.aof foi criado. Verifique o seu conteúdo
-4. Desligue a persistência de snapshots (opção save no arquivo de configuração)
+4. Desligue a persistência de snapshots (opções `save` e `dbfilename` no arquivo de configuração)
 5. Adicione mais chaves à instância e em seguida desligue a instância (shutdown)
 6. Reinicie a instância e verifique que o arquivo AOF foi relido
