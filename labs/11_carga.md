@@ -2,12 +2,6 @@
 
 Explorar a carga massiva de dados no Redis
 
-# Pipe
-
-1. Crie um arquivo .txt com alguns comandos Redis para criação de chaves (use chaves, hashes, lists, sets e sorted sets para relembrar a sintaxe dos comandos)
-2. Execute na linha de comando Linux `cat <arquivo .txt criado> | redis-cli --pipe`
-3. Inspecione as chaves criadas 
-
 # Utilizando o protocolo Redis
 
 1. Crie o arquivo `gerar_resp.rb` com o seguinte código:
